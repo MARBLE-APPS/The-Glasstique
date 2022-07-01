@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+body{
+  font-family: 'Quicksand' , sans-serif;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  background: #f1f1f1;
+  margin:0;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.top-bar{
+  width: 100%;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+
+  overflow: hidden;
+  background: #f1f1f1;
+  z-index: 1;
+  border-bottom: 2px solid #000;
+}
+
+
+.top-bar img{
+  width: 55px;
+  height: 55px;
+  float: left;
+  border-right: 2px solid #000;
+}
+
+
+
+.logo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.top-bar button{
+  float: left;
+  border-right: 2px solid #000;
+}
+
+button{
+  color: purple;
+  width: max-content;
+  border-radius: 25px;
+  border: none;
+  background: #ffffff;
+  font-size: 25px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: 'Quicksand' , sans-serif ;
+}
+
+.social{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+      .dd{
+        height: 55px;
+        width: max-content;
+        position: relative;
+        display: inline-block;
+        border-radius: 0;
+        font-size: 26px;
+        
+        cursor: none;
+      }
+    
+      .hr{
+        width: 99%;
+        height: 0px;
+        border: 1px solid #000;
+        margin-top: -0px;
+        float: center ;
+      }
+      
+      
+.head{
+  margin-top: 11px;
+  color: #fff;
+  font-weight: 900;
+
+  background-image: linear-gradient(  To right ,deepskyblue, salmon , #0575E6, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 300%;
+  background-position: absolute;
+
+  animation: animatedText 3s infinite alternate-reverse;
+}
+
+@keyframes animatedText {
+  to {
+    background-position: 100%;
+  }
+}
+
+
+.gallery{
+   box-sizing: border-box;
+}
+
+.gallery img{
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+}
+
+
+.footer{
+  background: #EE6688;
+  margin-bottom: -10px;
+  
+}
